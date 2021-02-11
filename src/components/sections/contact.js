@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { srConfig, email } from '@config';
 import sr from '@utils/sr';
-import { Emoji } from '@components';
 
 const StyledContactSection = styled.section`
   max-width: 600px;
@@ -58,7 +57,10 @@ const Contact = () => {
 
       <p>
         Anything else? My inbox is always open! Let me know if you want to grab coffee in mainland
-        <Emoji symbol="☕" label="Hot Beverage" />.
+        <span role="img" aria-label="Hot Beverage">
+          ☕
+        </span>
+        .
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

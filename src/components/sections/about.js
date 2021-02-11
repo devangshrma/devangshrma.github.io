@@ -4,7 +4,6 @@ import Img from 'gatsby-image';
 import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
-import { Emoji } from '@components';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -158,8 +157,11 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Namaste <Emoji symbol="🙏🏼" label="Folded Hands: Medium-Light Skin Tone" /> ! I'm
-              Devang, pursuing MEng in{' '}
+              Namaste{' '}
+              <span role="img" aria-label="Folded Hands: Medium-Light Skin Tone">
+                🙏🏼
+              </span>{' '}
+              ! I'm Devang, pursuing MEng in{' '}
               <a href="https://www.uvic.ca/engineering/ece/future/mtis/index.php">
                 Telecommunications and Information Security
               </a>{' '}

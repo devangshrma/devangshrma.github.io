@@ -3,7 +3,6 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
-import { Emoji } from '@components';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -51,7 +50,9 @@ const Hero = () => {
   const one = (
     <h1>
       {' '}
-      <Emoji symbol="👋" label="Waving Hand" />
+      <span role="img" aria-label="Waving Hand">
+        👋
+      </span>
       Hello there! My name is
     </h1>
   );
@@ -65,7 +66,10 @@ const Hero = () => {
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">
-      Get In Touch <Emoji symbol="✍🏼" label="Writing Hand: Medium-Light Skin Tone" />
+      Get In Touch
+      <span role="img" aria-label=" Writing Hand: Medium-Light Skin Tone">
+        ✍🏼
+      </span>
     </a>
   );
 
