@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { srConfig, email } from '@config';
 import sr from '@utils/sr';
+import { Emoji } from '@components';
 
 const StyledContactSection = styled.section`
   max-width: 600px;
@@ -46,17 +47,22 @@ const Contact = () => {
 
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+      <h2 className="numbered-heading">Interested?</h2>
 
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I'm not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I'll try my best to get back to you!
+        I'm currently looking for new opportunities in software engineering with a focus on telco or
+        general wireless networks following my graduation in May 2021.
+      </p>
+
+      <p>
+        Anything else? My inbox is always open! Let me know if you want to grab coffee in mainland
+        <Emoji symbol="☕" label="Hot Beverage" />.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+        Say Howdy!
       </a>
     </StyledContactSection>
   );

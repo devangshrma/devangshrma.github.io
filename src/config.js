@@ -1,26 +1,16 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'devangsrma@gmail.com',
+
+  university: 'https://www.uvic.ca/engineering/ece/future/mtis/index.php',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://github.com/devangshrma',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.linkedin.com/in/devangshrma',
     },
   ],
 
@@ -44,6 +34,7 @@ module.exports = {
   ],
 
   colors: {
+    ratio: '#e4ed3e',
     green: '#64ffda',
     navy: '#0a192f',
     darkNavy: '#020c1b',

@@ -4,6 +4,7 @@ import Img from 'gatsby-image';
 import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
+import { Emoji } from '@components';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -132,7 +133,22 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'C',
+    '5G NR, LTE',
+    'Python',
+    'IoT',
+    'Shell scripting',
+    'Cybersecurity',
+    'Network Protocols',
+    'User space',
+    'Blockchain',
+    'System space',
+    'Jenkins',
+    'Wireshark',
+    'Diameter',
+    'Solidity',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,22 +157,40 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
-
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              Namaste <Emoji symbol="🙏🏼" label="Folded Hands: Medium-Light Skin Tone" /> ! I'm
+              Devang, pursuing MEng in{' '}
+              <a href="https://www.uvic.ca/engineering/ece/future/mtis/index.php">
+                Telecommunications and Information Security
+              </a>{' '}
+              at the <a href="https://www.uvic.ca/">@University of Victoria</a>.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              And yes! You read it right, so far I have been breaking things for good to make sure
+              that the final product works flawlessly in the production environment. By now, you
+              might have already guessed that I am a Software QA Engineer. Having spent time in
+              testing roles and developing highly scalable tools for testing, now I would love to
+              shift my focus towards Software Development and learn more about the DevOps culture.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>
+              Communication has become a crucial part of almost everyone's life, especially during
+              this Covid-19 pandemic. My passion for wireless communication technologies comes from
+              the very idea of a fully connected world, not to mention the various applications
+              which came into existence just because of Telecommunications.
+            </p>
+
+            <p>
+              Currently, I am on a co-op term at Sierra Wireless, working on a wide variety of
+              interesting and meaningful features which are providing network connectivity for
+              mission-critical applications.
+            </p>
+
+            <p>
+              Here's a list of few technologies I've been recently working with or have studied in
+              depth:
+            </p>
           </div>
 
           <ul className="skills-list">

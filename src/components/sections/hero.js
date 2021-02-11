@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
+import { Emoji } from '@components';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -47,18 +48,24 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const one = (
+    <h1>
+      {' '}
+      <Emoji symbol="👋" label="Waving Hand" />
+      Hello there! My name is
+    </h1>
+  );
+  const two = <h2 className="big-heading">Devang Sharma.</h2>;
+  const three = <h3 className="big-heading">I have been breaking things for a good.</h3>;
   const four = (
     <p>
-      I'm a software engineer based in Boston, MA specializing in building (and occasionally
-      designing) exceptional websites, applications, and everything in between.
+      I'm a software engineer based in Vancouver, with a history of providing software quality
+      assurance for the products related to Telecommunications, IoT and Network Security.
     </p>
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
+      Get In Touch <Emoji symbol="✍🏼" label="Writing Hand: Medium-Light Skin Tone" />
     </a>
   );
 
