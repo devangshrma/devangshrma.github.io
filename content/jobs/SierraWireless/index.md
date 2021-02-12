@@ -21,4 +21,3 @@ deadlines.
 - Actively analyze the field issues reported by Customers and validate respective Jira.
 - Upgraded IPsec VPN and Firewall automation suite from Python 2 to Python 3.8.5 followed by code refactoring.
 - Expedited active bug tracking in JIRA by at least 40% by implementing automated log analysis in Python.
-- Led the team of 2 co-op students and helped them be productive to enable them to contribute to the team at the earliest.
