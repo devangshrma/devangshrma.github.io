@@ -2,7 +2,7 @@
 date: '2020-08-30'
 title: 'Retail Sales Associate'
 company: 'Rogers Communication'
-location: 'Victoria, BC'
+location: 'Victoria, Canada'
 range: 'September 2019 - August 2020'
 url: 'https://www.rogers.com/mobility/'
 ---

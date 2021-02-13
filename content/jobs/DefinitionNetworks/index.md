@@ -2,7 +2,7 @@
 date: '2019-04-30'
 title: 'Software Engineer'
 company: 'Definition Networks, Inc.'
-location: 'Pune, MH'
+location: 'Pune, India'
 range: 'February 2017 - April 2019'
 url: 'http://www.definitionnetworks.com/products/dn-scef/'
 ---
