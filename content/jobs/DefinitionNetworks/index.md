@@ -16,7 +16,7 @@ url: 'http://www.definitionnetworks.com/products/dn-scef/'
 
 **Role**
 
-I was primarily accountable for the testing of [UE MONITORING][feature] and [Non-IP Data Delivery(NIDD)][feature] features of [SCEF][scef] - _A control plane Network Function introduced by 3GPP in Release 13._
+Built tools for automated testing of [UE MONITORING][feature] and [Non-IP Data Delivery(NIDD)][feature] features of [SCEF][scef] - _A control plane Network Function introduced by 3GPP in Release 13._
 
 - Led the complete test life cycle for the UE MONITORING feature, including
 
@@ -29,6 +29,7 @@ I was primarily accountable for the testing of [UE MONITORING][feature] and [Non
   - 3GPP REST APIs and Application Server using Python Tornado web framework
 
 - Engaged in introductory cloud platform related activities which included
+
   - Build management using Jenkins
   - Webhook integration between Jenkins and Slack for automated reporting
   - OpenStack cloud Orchestration and heat template configuration

@@ -8,6 +8,7 @@ import sr from '@utils/sr';
 
 const StyledJobsSection = styled.section`
   max-width: 700px;
+  padding: 0px 0px 60px 0px;
 
   .inner {
     display: flex;
@@ -152,11 +153,11 @@ const StyledTabContent = styled.div`
   }
 `;
 
-const Jobs = () => {
+const OtherWorkEx = () => {
   const data = useStaticQuery(graphql`
     query {
       jobs: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/jobs/" } }
+        filter: { fileAbsolutePath: { regex: "/otherWorkEx/" } }
         sort: { fields: [frontmatter___date], order: DESC }
       ) {
         edges {
@@ -219,8 +220,7 @@ const Jobs = () => {
 
   return (
     <StyledJobsSection id="jobs" ref={revealContainer}>
-      <h2 className="numbered-heading">Where I’ve Worked</h2>
-      <h2>Professional Work Experience</h2>
+      <h2>Other Work Experience</h2>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={onKeyDown}>
@@ -282,4 +282,4 @@ const Jobs = () => {
   );
 };
 
-export default Jobs;
+export default OtherWorkEx;

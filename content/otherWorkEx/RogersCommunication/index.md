@@ -7,9 +7,10 @@ range: 'September 2019 - August 2020'
 url: 'https://www.rogers.com/mobility/'
 ---
 
-My role involved constant customer interactions and providing a tailored solution based on their requirements.
+Accountable for professional interactions with customers and providing a tailored solution based on requirements.
 
-- Generated highest ARPU amongst other sales associates and achieved monthly sales targets while working in a high-pressure environment.
+- Generated the highest ARPU among other sales associates and achieved monthly sales targets while working in a high-pressure
+  environment.
 
 - Went above and beyond to meet the customer needs and make sure the customers understand the product well.
 
