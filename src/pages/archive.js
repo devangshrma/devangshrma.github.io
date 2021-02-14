@@ -164,16 +164,7 @@ const ArchivePage = ({ location, data }) => {
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
-                  const {
-                    date,
-                    github,
-                    external,
-                    ios,
-                    android,
-                    title,
-                    tech,
-                    company,
-                  } = node.frontmatter;
+                  const { date, github, title, tech, company } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
@@ -197,24 +188,9 @@ const ArchivePage = ({ location, data }) => {
 
                       <td className="links">
                         <div>
-                          {external && (
-                            <a href={external} aria-label="External Link">
-                              <Icon name="External" />
-                            </a>
-                          )}
                           {github && (
                             <a href={github} aria-label="GitHub Link">
                               <Icon name="GitHub" />
-                            </a>
-                          )}
-                          {ios && (
-                            <a href={ios} aria-label="Apple App Store Link">
-                              <Icon name="AppStore" />
-                            </a>
-                          )}
-                          {android && (
-                            <a href={android} aria-label="Google Play Store Link">
-                              <Icon name="PlayStore" />
                             </a>
                           )}
                         </div>
@@ -249,9 +225,6 @@ export const pageQuery = graphql`
             title
             tech
             github
-            external
-            ios
-            android
             company
           }
           html

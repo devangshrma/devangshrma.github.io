@@ -7,7 +7,6 @@ module.exports = {
       'Devang Sharma is a software engineer with a history of providing software quality assurance for the products related to Telecommunications, IoT and Network Security.',
     siteUrl: 'https://devangshrma.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'DevangSharma',
+        short_name: 'DevangSharma',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
@@ -151,7 +150,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'UA-185626675-1',
       },
     },
   ],
