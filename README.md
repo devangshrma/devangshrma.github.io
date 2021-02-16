@@ -1,11 +1,9 @@
 <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/devangshrma/devangshrma.github.io/source/src/images/Logo%20(1).png" width="100" />
 </div>
-
 <h1 align="center">
   devangsharma.tech - v2
 </h1>
-
 <p align="center">
   The second iteration of my ePortfolio, <a href="https://devangsharma.tech" target="_blank">devangsharma.tech</a>.
 Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>, credits go to <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> for the awesome website.
