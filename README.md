@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/devangshrma/devangshrma.github.io/source/src/images/Logo%20(1).png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/devangshrma/devangshrma.github.io/source/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   devangsharma.tech - v2
