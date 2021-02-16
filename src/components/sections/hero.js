@@ -57,7 +57,7 @@ const Hero = () => {
     </h1>
   );
   const two = <h2 className="big-heading">Devang Sharma.</h2>;
-  const three = <h3 className="big-heading">I have been breaking things for a good.</h3>;
+  const three = <h3 className="big-heading">I have been breaking things for good.</h3>;
   const four = (
     <p>
       I'm a software engineer based in Vancouver, with a history of providing software quality
