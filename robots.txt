@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://devangshrma.github.io/sitemap.xml
-Host: https://devangshrma.github.io
+Sitemap: https://devangsharma.tech/sitemap.xml
+Host: https://devangsharma.tech
