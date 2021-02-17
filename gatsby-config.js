@@ -5,7 +5,7 @@ module.exports = {
     title: 'Devang Sharma',
     description:
       'Devang Sharma is a software engineer with a history of providing software quality assurance for the products related to Telecommunications, IoT and Network Security.',
-    siteUrl: 'https://devangshrma.github.io', // No trailing slash allowed!
+    siteUrl: 'https://devangsharma.tech', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
